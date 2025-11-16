@@ -1,6 +1,8 @@
 # Welcome to My Arduino Wearables Open Source Community!
 
-This repo is my playground for wearable electronics using the **SparkFun LilyPad USB Plus** and the broader **Arduino wearables** ecosystem. Its designed to be:
+This repo is my open source playground for wearable electronics using the
+**SparkFun LilyPad USB Plus** and the broader **Arduino wearables**
+ecosystem. Its designed to be:
 
 - **Learning-friendly**: clear examples you can step through and modify.
 - **Makerspace-friendly**: step-by-step instructions for students and workshop participants.
@@ -8,7 +10,22 @@ This repo is my playground for wearable electronics using the **SparkFun LilyPad
 
 Author: Glenn Mossy
 
-![LilyPad USB Plus](https://cdn.sparkfun.com/r/600-600/assets/parts/1/1/2/0/9/14346-LilyPad_USB_Plus-01.jpg)
+![LilyPad USB Plus](lilypad-USBPlus/images/14631-Lilypad_USB_Plus-01.png)
+
+---
+
+## Project Index
+
+- **LilyPad USB Plus Wearable Demo**
+  - Code: `lilypad-USBPlus/USBPlusRGBBlink/USBPlusRGBBlink.ino`
+  - Docs: [`lilypad-USBPlus/README.md`](lilypad-USBPlus/README.md)
+
+- **LilyPad USB Plus Drone Navigation Demo**
+  - Code: `lilypad-USBPlus/USBPlusDroneNav/USBPlusDroneNav.ino`
+  - Docs: [`lilypad-USBPlus/USBPlusDroneNav/README.md`](lilypad-USBPlus/USBPlusDroneNav/README.md)
+
+Use these as starting points for your own contributions back to the
+Arduino and makerspace communities.
 
 ---
 
@@ -43,15 +60,16 @@ LilyPad community discussion and troubleshooting:
 
 ## Project Overview
 
-This repo currently includes a **LilyPad USB Plus wearable light show demo**:
+This repo currently includes two LilyPad USB Plus demos:
 
-- `lilypad-USBPlus/USBPlusRGBBlink/`  a curated RGB + white LED sequence with optional button and sensor support.
+- `lilypad-USBPlus/USBPlusRGBBlink/`  a curated RGB + white LED wearable light show with optional button and sensor support.
+- `lilypad-USBPlus/USBPlusDroneNav/`  a navigation-style RGB pattern intended for mounting the LilyPad USB Plus on a drone for night visibility.
 
 You can:
 
-- Use this as-is for workshops or show-and-tell.
-- Fork it into your own wearable art pieces.
-- Extend it with sensors (accelerometers, buttons, light sensors, etc.).
+- Use these as-is for workshops or show-and-tell.
+- Fork them into your own wearable art pieces or drone lighting experiments.
+- Extend them with sensors (accelerometers, buttons, light sensors, etc.).
 
 For **device-specific wiring, Arduino CLI commands, and Windsurf workflow**, see:
 
@@ -95,11 +113,15 @@ These pins are already used in the demo sketches for color fades, chases, and sp
 
 ---
 
-## What the Demo Does
+## What the Demos Do
 
 - **USBPlusRGBBlink**
   - Runs a curated sequence across the built-in RGB LED and six white LEDs.
   - Includes an optional interactive section using a button and analog sensor.
+
+- **USBPlusDroneNav**
+  - Uses the built-in RGB LED as a compact navigation-style light.
+  - Combines a soft pulsing glow with a short white strobe for improved visibility when the board is mounted on a small drone.
 
 ---
 
@@ -112,6 +134,18 @@ Use this repo as a starting point for:
 - Interactive garments that respond to **buttons, motion, or light**.
 
 If you build something cool, open a PR or share links to your project threads on the Arduino or SparkFun forums!
+
+---
+
+## Images & Gallery
+
+Representative board photo from this repo:
+
+![LilyPad USB Plus Board](lilypad-USBPlus/images/14631-Lilypad_USB_Plus-01.png)
+
+You can keep additional build photos and diagrams under
+`lilypad-USBPlus/images/` and reference them from this README or the
+sub-READMEs.
 
 ---
 
