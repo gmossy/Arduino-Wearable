@@ -143,10 +143,6 @@ Representative board photo from this repo:
 
 ![LilyPad USB Plus Board](lilypad-USBPlus/images/14631-Lilypad_USB_Plus-01.png)
 
-You can keep additional build photos and diagrams under
-`lilypad-USBPlus/images/` and reference them from this README or the
-sub-READMEs.
-
 ---
 
 Enjoy creating wearable light shows and sharing them with the community!
